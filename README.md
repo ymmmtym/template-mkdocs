@@ -26,6 +26,7 @@ run
 mkdocs serve -a 0.0.0.0:8000
 ```
 
-### Github Pages
+### GitHub Pages
 
-Push to main branch.
+1. Push or Merge to main branch.
+2. GitHub Pages will be deployed at gh-pages branch.
