@@ -4,26 +4,25 @@
 
 ### Local
 
-activate python3 env
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then run:
 
 ```bash
 git clone git@github.com:ymmmtym/template-mkdocs.git
 cd template-mkdocs
-python3 -m venv --clear .venv
-. .venv/bin/activate
-pip install -r requirements.txt
+uv python install
+uv sync
 ```
 
 build
 
 ```bash
-mkdocs build
+uv run mkdocs build
 ```
 
 run
 
 ```bash
-mkdocs serve -a 0.0.0.0:8000
+uv run mkdocs serve -a 0.0.0.0:8000
 ```
 
 ### GitHub Pages
