@@ -8,7 +8,7 @@ workflows:
     '.github/workflows/gh_pages.yml':
         - 'actions/checkout@v7.0.1'
         - 'astral-sh/setup-uv@v6.8.0'
-        - 'peaceiris/actions-gh-pages@v3.9.3'
+        - 'peaceiris/actions-gh-pages@v4.1.0'
 dependencies:
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
@@ -25,8 +25,8 @@ dependencies:
         commit: 'sha1-8348ea7f5d949b08c7f125a44b569c9626b05db3'
         owner_id: 27347476
         repo_id: 371068214
-    'peaceiris/actions-gh-pages@v3.9.3':
-        ref: 'v3.9.3'
-        commit: 'sha1-373f7f263a76c20808c831209c920827a82a2847'
+    'peaceiris/actions-gh-pages@v4.1.0':
+        ref: 'v4.1.0'
+        commit: 'sha1-84c30a85c19949d7eee79c4ff27748b70285e453'
         owner_id: 30958501
         repo_id: 187915200
